@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAO;EACH,UAAU,EAAE,OAAO;;AAEvB,wBAAwB;EACpB,UAAU,EAAE,kBAAkB;;ACHlC,IAAI;EACA,SAAS,EAAE,GAAG;;AAElB,QAAQ;EACJ,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,MAAM;;AAElB,EAAE;EACE,KAAK,EAAE,KAAK",
+"sources": ["layout-2/navigation.sass","app.sass"],
+"names": [],
+"file": "style.css"
+}
