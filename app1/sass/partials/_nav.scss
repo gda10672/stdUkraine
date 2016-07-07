@@ -52,7 +52,7 @@
     top: 70px;
     overflow: hidden;
     background-color: #fff;
-    max-height: 0px;
+    max-height: 0;
 		width: 100%;
 
     a {
@@ -92,24 +92,25 @@
 		width: 128px;
 		height: 85px;
 	}
-}
 
-#sub-item-1 {
-	margin-left: 88px;
-}
+	#sub-item-1 {
+		margin-left: 88px;
+	}
 
-#sub-item-4 {
-	margin-right: 52px;
+	#sub-item-4 {
+		margin-right: 52px;
+	}
 }
 
 .sub-item-right {
 	float: left;
-	margin: 54px 0 52px 0;
-	width: 200px; 
+	margin: 54px 0 52px 36px;
+	width: 130px;
 
 	a {
-		float: no;
+		clear: left;
 		margin: 0 0 13px 0;
 		color: #2d2d2d;
+		line-height: 24px;
 	}
 }
