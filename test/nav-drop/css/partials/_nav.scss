@@ -1,0 +1,80 @@
+.nav-main {
+	width: 100%;
+    background-color: $nav-babacground-color;
+    height: 70px;
+    color: $nav-foreground-color;
+    
+    .logo {
+	   float: left;
+        height: 40px;
+        padding: 15px 30px;
+        font-size: 1.4em;
+        line-height: 40px;
+    }
+    
+    > ul {
+        @extend %plainlist;
+        float: left;
+        
+        > li {
+            float: left;
+        }
+    }
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 15px 20px;
+    height: 40px;
+    line-height: 40px;
+    color: $nav-foreground-color;
+    text-decoration: none;
+    
+    &:hover {
+        background-color: $nav-hover-color;
+    }
+    
+    &:focus {
+        background-color: $nav-hover-color;
+        
+        ~ .nav-content {
+            max-height: 400px;
+            @include transition(max-height, 0.4s, ease-in);
+        }
+    }
+}
+
+.nav-content {
+    position: absolute;
+    top: 70px;
+    overflow: hidden;
+    background-color: $nav-babacground-color;
+    max-height: 0px;
+    
+    a {
+        color: $nav-foreground-color;
+        text-decoration: none;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    
+}
+
+.nav-sub {
+	padding: 20px;
+    
+    ul {
+        @extend %plainlist;
+        
+        a {
+            display: inline-block;
+            padding: 5px 0;
+        }
+    }
+}
+
+a {
+    display: flex;
+}

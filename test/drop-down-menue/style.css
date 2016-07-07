@@ -1,0 +1,69 @@
+body, html {
+  margin: 0;
+  font: 14px "Open  Sans, sans-serif"; }
+
+.content {
+  padding: 30px; }
+
+.nav-main {
+  background-color: #2d4256;
+  color: #fff;
+  height: 72px;
+  with: 100%; }
+  .nav-main .logo {
+    float: left;
+    font-size: 1.4em;
+    height: 29px;
+    line-height: 40px;
+    padding: 20px 416px 20px 149px; }
+    .nav-main .logo img {
+      width: 190px;
+      height: 29px; }
+  .nav-main > ul {
+    float: left; }
+    .nav-main > ul > li {
+      float: left; }
+
+.nav-item {
+  display: inline-block;
+  color: #fff;
+  letter-spacing: 0px;
+  padding: 28px 24px 28px 24px;
+  text-decoration: none; }
+  .nav-item:hover {
+    background-color: #ff8e46; }
+  .nav-item:focus {
+    background-color: #ff8e46; }
+    .nav-item:focus ~ .nav-content {
+      max-height: 400px; }
+
+.nav-content {
+  position: absolute;
+  top: 100px;
+  right: 56px;
+  bottome: 10px;
+  left: 85px;
+  oevrflow: hidden;
+  background-color: #fff;
+  color: #5b5b5b;
+  max-height: 0; }
+  .nav-content a {
+    color: #5b5b5b;
+    text-decoration: none; }
+    .nav-content a:hover {
+      text-decoration: underline; }
+
+.nav-sub {
+  padding: 20px; }
+  .nav-sub ul {
+    @extand: %plainlist; }
+    .nav-sub ul a {
+      display: inline-block;
+      padding: 5px 0; }
+
+.nav-main > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=style.css.map */

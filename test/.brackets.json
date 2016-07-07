@@ -1,0 +1,11 @@
+{
+    "path": {
+        "scss.enabled": true,
+        "sass.options": {
+            "output": "css/app.css",
+            "includePaths": [],
+            "imagePath": "css/map",
+            "outputStyle": "nested"
+        }
+    }
+} 
