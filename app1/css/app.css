@@ -70,17 +70,19 @@ body, html {
   .sub-item-left img {
     width: 128px;
     height: 85px; }
-  .sub-item-left #sub-item-1 {
-    margin-left: 88px; }
-  .sub-item-left #sub-item-4 {
-    margin-right: 52px; }
 
 .sub-item-right {
   float: left;
-  margin: 54px 0 52px 36px;
-  width: 130px; }
+  margin: 54px 0 52px 20px;
+  width: 140px; }
   .sub-item-right a {
     clear: left;
     margin: 0 0 13px 0;
     color: #2d2d2d;
     line-height: 24px; }
+
+#sub-item-1 {
+  margin-left: 71px; }
+
+#sub-item-4 {
+  margin-right: 36px; }
