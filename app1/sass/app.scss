@@ -1,7 +1,4 @@
-body {
-    background-color: antiquewhite;
-}
-
-a {
-    display: flex;
-}
+@import '_variables';
+@import '_placeholders';
+@import '_mixins';
+@import 'partials/_all';
