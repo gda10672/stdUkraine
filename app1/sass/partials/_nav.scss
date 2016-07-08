@@ -10,7 +10,7 @@
 				float: left;
         height: 40px;
         padding: 20px 148px 21px 148px;
-				margin-right: 302px;
+				margin-right: 278px;
     }
 
     > ul {
@@ -30,13 +30,24 @@
     line-height: 40px;
     color: $nav-foreground-color;
     text-decoration: none;
+		border-left: 0px solid $nav-hover-color;
+		border-right: 0px solid $nav-hover-color;
+		margin: 0 3px 0 3px;
 
 	&:hover {
-	        background-color: $nav-hover-color;
+	        background-color: #466683;
+					// margin: 0;
+					// border-left: 3px solid #466683;
+					// border-right: 3px solid #466683;
+
 	    }
 
 	    &:focus {
 	        background-color: $nav-hover-color;
+					margin: 0;
+					border-left: 3px solid $nav-hover-color;
+					border-right: 3px solid $nav-hover-color;
+					margin: 0;
 
 	        ~ .nav-content {
 	            max-height: 400px;
